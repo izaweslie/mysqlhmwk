@@ -6,7 +6,7 @@ var inquirer = require("inquirer");
 function connectDB(){
 connection = mysql.createConnection({
 	host: 'localhost',
-	port: '1234',
+	port: '3306',
 	user: 'root',
 	password: 'Suntan07'
 	database: 'bamazon'
